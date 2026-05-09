@@ -3,7 +3,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #f7fafc; /* Changed: light gray for contrast */
+  background-color: #8b5cf6; /* Changed: light gray for contrast */
   margin: 0;
   font-family: Arial, sans-serif; /* Fixed: San-serif → sans-serif */
 }
