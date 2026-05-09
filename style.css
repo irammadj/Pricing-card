@@ -1,0 +1,101 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f7fafc; /* Changed: light gray for contrast */
+  margin: 0;
+  font-family: Arial, sans-serif; /* Fixed: San-serif → sans-serif */
+}
+
+.card {
+  width: 350px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 30px;
+  text-align: center;
+  transition: box-shadow 0.3s ease; /* Added: smooth hover */
+}
+
+.card:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12); /* Enhanced: bigger shadow */
+}
+
+.pro-badge {
+  color: white;
+  background-color: #8b5cf6; /* Changed: purple → #8b5cf6 (exact color) */
+  font-size: 12px;
+  font-weight: 600;
+  padding: 6px 16px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.price {
+  margin-bottom: 25px;
+}
+
+.dollar {
+  font-size: 20px;
+  color: #718096;
+}
+
+.amount {
+  font-size: 48px;
+  font-weight: 700; /* Changed: 600 → 700 (bolder for price) */
+  color: #1a202c;
+}
+
+.month {
+  font-size: 16px;
+  color: #718096;
+}
+
+.features-list {
+  text-align: left;
+  margin: 20px 0;
+  list-style: none !important;
+  padding: 0 !important;
+}
+
+/* Added: spacing between list items */
+.features-list li {
+  margin-bottom: 12px;
+  list-style: none !important; /* Ensure no default list styles */
+}
+
+.checkmark {
+  color: #10b981;
+  margin-right: 12px; /* Added: space between checkmark and text */
+}
+
+.texts {
+  color: #2d3748;
+  font-size: 15px;
+}
+
+.btn {
+  background-color: #8b5cf6;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 24px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin: 20px 0 15px 0;
+  transition: background-color 0.3s ease; /* Added: smooth button hover */
+}
+
+.btn:hover {
+  background-color: #7c3aed;
+}
+
+.footer {
+  font-size: 12px;
+  color: #a0aec0;
+  text-align: center;
+}
